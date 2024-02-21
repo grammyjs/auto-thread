@@ -13,7 +13,7 @@ npm install github:grammyjs/auto-thread
 Use it:
 
 ```ts
-import { autoThreads } from "grammy";
+import { autoThread } from "@grammyjs/auto-thread";
 
-bot.use(autoThreads());
+bot.use(autoThread());
 ```
