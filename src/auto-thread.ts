@@ -26,7 +26,7 @@ export function autoThread<C extends Context>(): MiddlewareFn<C> {
     return async (ctx, next) => {
         const chat_id = ctx.chat?.id;
         const message_thread_id = ctx.msg?.message_thread_id;
-        const is_topic_message = ctx.msg?.is_topic_message || false;
+        const is_topic_message = ctx.msg?.is_topic_message ?? false;
         if (
             chat_id !== undefined &&
             message_thread_id !== undefined &&
