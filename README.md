@@ -1,10 +1,14 @@
 # Forum Utility
 
+> Note: As of grammY 1.37.1, the context actions `ctx.reply` and so on will automatically reply to the right topic/message thread.
+> You only need this plugin if you want to alter the behaviour of `ctx.api.sendMessage` calls, too.
+
 todo docs
 
 ## Quickstart
 
-Install from GitHub:
+This was never documented or released.
+Install from GitHub instead:
 
 ```sh
 npm install github:grammyjs/auto-thread
